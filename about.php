@@ -18,7 +18,7 @@
       <div class="jumbotron row centered shadow rounded">
         <div id="lipsum">
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis consectetur tellus, ut iaculis risus. Sed ligula erat, feugiat ac sollicitudin nec, sodales a nisl. Nunc eget sem quis diam sagittis convallis. Aenean laoreet nulla sed velit ornare gravida. Vivamus pulvinar varius nisi, nec scelerisque leo efficitur sed. Integer pulvinar aliquet malesuada. In non leo tempor, luctus augue id, imperdiet mauris. In hac habitasse platea dictumst. Curabitur in commodo urna. Etiam consectetur metus vel leo rhoncus imperdiet. Ut aliquet placerat diam ac accumsan.
+            Rell dans league of legend est le meilleur support au monde et il n'y a pas de débat dessus. #period #slay
           </p>
           <p>
           Sed dignissim nunc nisl, ut elementum orci rutrum nec. Pellentesque a sapien eget enim accumsan aliquet at non magna. Fusce tincidunt, lectus ac finibus lacinia, augue metus congue ligula, vel interdum nunc elit a urna. Proin aliquet et enim at volutpat. Sed consectetur nunc non nunc ultricies, sit amet gravida turpis imperdiet. Nullam felis nulla, ornare ac egestas a, tincidunt quis lacus. Pellentesque at purus est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris consequat dapibus lacus quis dapibus. In tempor augue ac nulla ornare tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent pellentesque faucibus augue vel sodales. Suspendisse mollis tristique dui, non vehicula ipsum vehicula eget.
