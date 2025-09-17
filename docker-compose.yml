@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  mysql:
+    build:
+      context: .
+      dockerfile: mysql.Dockerfile
+      args:
+        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    image: mysql-junia:1.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: junia
+      MYSQL_USER: toto
+      MYSQL_PASSWORD: toto_pw
+    volumes:
+      - mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - segregated-network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # pas d'args ici si non nécessaires
+    image: app:1.0
+    volumes:
+      - /var/www/html:/var/www/html:ro
+    ports:
+      - "80" # laisse docker choisir un port hôte aléatoire (short syntax)
+    networks:
+      - segregated-network
+
+volumes:
+  mysql-data:
+
+networks:
+  segregated-network:
+    driver: bridge
