@@ -1,10 +1,8 @@
 # Dockerfile (image app: contient nginx + php-fpm)
 FROM php:8.1-fpm
 
-# installer nginx et utilitaires
-RUN docker-php-ext-install pdo pdo_mysql
 RUN apt-get update && apt-get install -y nginx git unzip \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* && docker-php-ext-install pdo pdo_mysql
 
 # config nginx (on remplace le site par défaut)
 COPY docker/nginx-default.conf /etc/nginx/sites-available/default
